@@ -1,0 +1,123 @@
+<!-- <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            #work {
+                font-size: 20px;
+                font-weight: bold;
+
+            }
+        </style>
+    </head>
+    <body>
+        <pre id="work"></pre>
+
+
+        <script>
+            let one = 5;
+            let output = '';
+
+            for( let i = 1; i <= one; i++){
+                
+                let str = '';
+                let count = 1;
+
+                for( let j = 1; j <= 2 * one; j++ ){
+
+                    if(i + j >= one +1 && i >= j - one + 1){
+                        str += count +'  ';
+                        count++;
+                    } else {
+                        str +='   ';
+                    }
+                   
+                }
+
+                output += str + '\n';
+            }
+
+            document.getElementById('work').textContent = output;
+        </script>
+    </body>
+</html> -->
+
+<!-- 
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <pre id="working">
+
+        </pre>
+        <script>
+            let work = 5;
+            let output = '';
+
+            for( let i = 1; i <= work; i++ ) {
+                let str = '';
+                let count = 1;
+
+                for ( let j = 1; j <= 2 * work; j++ ){
+                    
+                    if(i + j >= work + 1 && i >= j - work + 1) {
+                        str += count + '  ';
+                        count++;
+                    } else {
+                        str += '   ';
+                    }
+
+                    output += str + '\n';
+                }
+            }
+
+            document.getElementById('working').textContent = output;
+        </script>
+    </body>
+</html> -->
+
+
+<!-- 
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <pre id="newone">
+
+        </pre>
+
+        <script>
+            let one = 5;
+            let output = '';
+
+            for (let i = 1; i <= one; i++){
+                
+                let str = '';
+                let count = 1;
+
+                for(let j = 1; j <=2 * one; j++) {
+                    
+                    if( i + j >= one + 1 && i >= j - one + 1) {
+                        str += count + '';
+                        count++;
+                    } else {
+                        str += ' '
+                    }
+                }
+                output += str + '\n';
+
+            }
+            
+            document.getElementById('newone').textContent = output;
+        </script>
+    </body>
+</html> -->
+
+
